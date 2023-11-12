@@ -1,0 +1,21 @@
+:root {
+  --primary-color: rgb(248, 248, 248);
+  --secondary-color: #000000;
+}
+.darktheme {
+  --primary-color: #141414;
+  --secondary-color: rgb(248, 248, 248);
+}
+p {
+  font-family: roboto, arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
